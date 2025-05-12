@@ -1,0 +1,11 @@
+kubectl version --client
+minikube version
+minikube start
+minikube status
+kubectl cluster-info
+kubectl create deployment nginx-deployment --image=nginx
+kubectl get deployments
+kubectl get pods
+kubectl expose deployment nginx-deployment --port=80 --type=NodePort
+kubectl get services
+minikube service nginx-deployment --url
