@@ -1,0 +1,5 @@
+kubectl config get-contexts 
+kubectl config use-context docker-desktop 
+kubectl get nodes 
+kubectl run nginx --image=nginx 
+kubectl get pods
