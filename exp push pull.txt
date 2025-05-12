@@ -1,0 +1,8 @@
+exp push pull
+
+docker build -t dockerdemopush .
+docker images
+docker tag dockerdemopush:latest pavithra1309/dockerdemopush:latest
+docker push pavithra1309/dockerdemopush:latest
+ docker pull pavithra1309/dockerdemopush:latest
+ docker run -d -p 8080:80 pavithra1309/dockerdemopush:latest
