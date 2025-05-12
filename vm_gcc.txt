@@ -1,0 +1,7 @@
+gcc cprog.c -o a.out
+./a.out
+
+gcc cprog.c -o myprogram
+./myprogram
+
+ren old_filename new_filename
