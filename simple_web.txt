@@ -1,0 +1,6 @@
+mkdir web
+cd web
+
+docker build -t dockerfile
+docker run -p 8080:80 dockerfile
+
